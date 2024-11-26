@@ -1,0 +1,1 @@
+javascript:(function(){let imgs=document.querySelectorAll('img.leaflet-marker-icon');if(imgs.length>0){imgs[Math.floor(Math.random()*imgs.length)].click();}else{alert('An erorr occurred. Make sure that you are on the maps.moomoo.me homepage and the website has fully loaded.');}})();
